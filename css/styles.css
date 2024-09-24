@@ -1,0 +1,115 @@
+.flex-container {
+  display: flex;
+  justify-content: flex-start;
+  font-family: josephin sans;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero {
+  background-image: url(../images/hero-section-bg.png);
+  background-size: cover;
+  background-position: center;
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  height: 400px;
+  display: flex;
+}
+.hero content {
+  display: flex;
+  font-size: 30px;
+  
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+nav {
+  align-content: center;
+}
+ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+}
+ul li a{color:#496BF1}
+.hero {
+  /* image: url("../Medic Care Clinic/images/hero-section-bg.png");*/
+}
+.btn {
+  height: 80px;
+  border-radius: 10px;
+}
+
+.container {
+  display: flex;
+  width: 1200px;
+  height: 400px;
+  margin: auto;
+  align-items: center;
+}
+
+.content {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  box-shadow: 1px 0px 10px #000;
+  margin: 0 15px;
+}
+.h3{
+  color: #496BF1;
+}
+.blue{width:25px;
+      height:25px;
+      font-size:34px;
+      display:flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 50%;
+      background-color: #496BF1;
+}
+.green1{width:25px;
+        height:25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        background-color: #2dd6c1;}
+.contact{
+  display: flex;
+  height:30%;
+  box-shadow: 2px 0 15px gray;
+  
+
+}
+
+.about-us{
+  display: flex;
+  height: 50%;
+  padding-bottom: 50px;
+}
+.about-title{
+  display: flex;
+  padding-bottom:20%;
+  margin-left: 5%;
+}
+.about-content{
+  display: flex;
+  padding-top: 50px;
+  padding-left: 0px;
+
+}
+/*.feedback{display:flex;
+           justify-content: center;
+           align-items: center;
+           padding-top: 10px%;
+           margin-left: 20%;
+}*/
+
+.input{background-image:url(../images/contact-section-bg.png);
+        height:600px;}
+
+        
